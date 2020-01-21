@@ -1,0 +1,24 @@
+1.Easy to discover.
+2.Injection such as sql,os,ldap,etc. tops the list of attacks.
+3.Easy to exploit the vulnerability.
+4.Its impact is severe.
+
+
+Execution:
+
+Attacker
+|request
+>webserver
+|firewall
+>database
+and then it
+returns
+|data
+>firewall
+|data
+>webserver
+|response
+>Attacker
+
+when there is a .isp extension on the internet i.e. where it attacks.
+

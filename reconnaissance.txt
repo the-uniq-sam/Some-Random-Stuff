@@ -1,0 +1,70 @@
+Reconnaisance is kind of information gathering on networking systems and services
+The attacker first discover any vulnerable ports by using scanning.
+IPS(intrusion prevention system)  and firewall control which prots are open/closed, filtered/unfiltered and whom they are visible.
+
+Passive and active reconaissance 
+
+Does not / does involve direct interaction with the target.
+Ex: WHOIS lookup / Port scanning
+
+theHarvester is inbuilt tool in kali linux.
+The objective of this program is to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
+theHarvester command in kali linux opens the tool
+EX:- theHarvester -d www.facebook.com -b google
+
+WHOIS fingerprinting service allows access to specific information about a target, which contains IP addresses, hostnames, DNS servers and contact information.
+EX:- whois apple.com
+
+
+Google Hacking :) (Google Dorks)
+As Google works by crawling billions of webpages 
+Google hacking is performing Google search queries to gather information about a target.
+Google stores a significant portion of the internet. Users may query this database to uncover sensitive information to get username,password,etc.
+Search operators are as follows:
+Forced Inclusion : +
+------ Exclusion : -
+Range : .. 2001..2002
+Exact phrase : "", etc
+
+Advanced operators are used to further search specific websites, filetypes or vulnerable applications.
+EX:
+site:www.xyxx.com
+filetype:sql
+link:www.example.com
+cache:www.example.com
+intitle:"index"
+inurl:passwords.txt
+index.of.dcim
+
+
+
+Active Reconaissance
+DNS Enumeration
+DNS translates websites addresses to ips
+Following tools helps in DNS enumeration:
+-host
+-nslookup
+-forward DNS lookup
+-reverse DNS lookup
+-zone transfer
+
+
+HOST
+it tells about the website given to it.
+Command: host www.fb.com
+
+nslookup
+it is similar to DNS lookup.
+Command: nslookup www.google.com
+
+Zone Transfer
+section of DNS namespace that has been delegated to appropriate servers.
+DNS Zone file contains list of all DNS records and is a valuable source of information.
+A copy is made from primary DNS server to secondary DNS server.
+
+fierce is tool to reverse DNS lookup.
+
+Dirbuster is used to brute force website to check their pages using wordlists, it checks how many directotries lies there.
+
+Searchsploit is a very good tool in kali in which we can find exploit regarding any known vulnerability
+EX: searchsploit vsftpd 2.1

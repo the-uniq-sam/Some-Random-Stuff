@@ -1,0 +1,11 @@
+DHCP(Dynamic Host Configuration Protocol) is hold by a router or a device on the network use to assign IP's automatically.
+
+DNS(Domain Name Servers) maps a website to its ip address that allows your data to be routed to that IP. It comes when we connect to a network.
+
+Latency - Delay between packet transfer
+OSI model
+Network layer from 1 to 7 :- Physical, Datalink, Network, Transport, Session, Presentation and Application
+
+
+
+ 

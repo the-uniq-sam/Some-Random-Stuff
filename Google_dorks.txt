@@ -1,0 +1,6 @@
+hacking filetype: .pdf
+inurl:/view/view.shtml
+intitle:hacking
+inurl:admin filetype:asp inurl:userlist
+inurl:adminlogin
+

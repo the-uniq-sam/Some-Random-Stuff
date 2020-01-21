@@ -1,0 +1,10 @@
+nmap by default run tcp scan.
+with sudo priviledge, it runs syn scan
+
+Most of the scan techniques are available to privileged users due to use of raw packets.
+Results are based on packets received by the target
+ID's may send confusing responses to disrupt scan
+Non-RFC compliant hosts will confuse NMAP
+with -p switch we can specify port range
+service version detection -sV
+

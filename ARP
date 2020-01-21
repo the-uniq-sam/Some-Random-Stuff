@@ -1,0 +1,6 @@
+Address Resolution Protocol
+Can determine physical address used by the device containing the Ip address.
+It maintains a table of segment that are previoussly cached and maintained automatically.
+Each computer on a network maintains it's own ARP table.
+It is used in MITM(Man in the maiddle) attack.
+

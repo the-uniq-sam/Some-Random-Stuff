@@ -1,0 +1,44 @@
+Name : Samyak Jain
+Position : Member
+Wing : Cybersecurity
+
+April : 
+1.How to use live usb to get any file from your friend's system
+2.Used Tor browser and see how it works.
+3.Learn basic commands of terminal like locate,find,ping,links and many more.
+4.Attempts ctfs by IIITA and Oters.
+
+May :
+1.Learn about many os and analyse them for better performance Ubuntu,Kali kde,Kali,Parrot,Linux mint,Deepin and android too.
+2.Planning - Download networking and many other tutorial by Udemy for learning in holidays.
+3.Start to learn python language.
+
+
+June :
+
+1.Submit assignment on github by Shivendra Sir.
+2.How to hack wifi using wifite and how to analyse and crack password with wordlist.
+3.Find a way to use Windows 10 partitions to copy and paste in Linux because by default we have only read access-(wasted some time in it).
+4.Learn python and bash for scripting purpose.
+5.See tutorial to use proxychain,macchanger in linux.
+6.Basics of SQLi and steganography.
+7.Learn Linux Commands.
+8.Attempt CTFs.
+
+
+
+July :
+1.How to use Google Dorks for efficient searching.
+2.How to use adb to install any app(may be a system app) on an android.
+3.Read about different attacks Ddos, MITM, SQLi and see video examples.
+4.Some Basics of Tools - Radare2, msfconsole and its gui Armitage, Ettercap, Nmap and its gui Zenmap, Wireshark.
+5.Have attempts some of ctf questions of PicoCtf which was not done during live ctf and will try those left.
+6.Try to understand assembly for reversing and  also tried some ctf in which almost unable to find flags but seen few writeups whenever leaves in a good mood :).
+7.Do assignment on Github given by Shivendra Sir.
+8.how to hack windows7 using sticky key option as command prompt.
+9.Learn to use social enginnering toolkit only for dns spoofing for connected virtual machine for old windows7 and their practical left.
+10.Currently trying to understand and practice pentesting and also how to how to send payload etc.and I think I will get the output until college reopens.
+
+
+
+Some of the CTFs i have attend but don't remind is not in evalution as I have changed my laptop recently and history data not present.

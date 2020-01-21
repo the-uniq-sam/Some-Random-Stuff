@@ -1,0 +1,22 @@
+Kali NSE script: /usr/share/namp/scripts
+
+Allows users to write/share using Lua programming language to automate a wide variety of network based attacks, including exploitation.
+
+Lua was choosen as it is lightweight, cross platform, small, portable and designed to extend application.
+Wireshark also use Luna.
+
+Nmap script can be found at 
+nmap.org/nsedoc/index.html
+
+Timing and performance
+-T0 upto -T5 according to speed and accuracy
+
+Firewall and IDS Evasion(Spoofing)
+-f Fragment packets to use tiny fragmented IP packets, the idea is to split up the TCP header over several packets to make it harder for packet filters/intrusion systems to detect the scan
+--mtu  16 SPecifies the fragment size packet
+-D use spoofed source addresses so the target will not know where the scan originated from.
+-S Spoof a scan to trick victim thinking someone lese is scanning them
+-g Specify source port(needs raw sockets).It help to bypass network filters and firewalls that are locked down. Common are FTP/DNS/Kerberos/DHCP
+--proxies Run nmap scan through a proxy. It will break some functionality.
+-oA outputs 3 (normal, XML and greppable)
+
