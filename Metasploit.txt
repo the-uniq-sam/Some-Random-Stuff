@@ -1,0 +1,83 @@
+Metasploit is a penetration testing framework that is essential tool for many attackers and defenders.
+
+!!Don't learn Metasploit by pointing it at other's network. That would be illegal.
+
+It is ruby based framework  that gives us a really easy way for interacting with host of exploits,scanners and post exploitation.
+
+It offers payloads, exploits, encoders, etc.
+An exploit is a code written to take advantage of vulnerability.
+Payload is code to be executed through exploit.
+
+These all stuff are basically some ruby scripts.
+Metasploit is on github and you can see every part of its library,etc.
+
+MSF architecture---
+-MSF file system
+--Data,Lib,Modules,Plugins,Scripts,Tools.
+-Libraries
+--REX(Ruby extension library)
+---handles sockets, protocols, text transformations, etc.,, SSL, SMB, HTTP, XOR, Base64, unicode.
+--MSF:Core
+---Basic API, Define metasploit framework
+--MSF:Base
+---makes interacting with MSF core.
+---we basically use it.
+
+Modules-Payload__
+-Single
+--Self contained payload
+-Stagers
+--Setup connection between attacker and victim.Designed to be small and reliable and transfer payload in pieces.
+-Stage
+--Payload components
+
+
+Commands
+msfconsole- load metasploit console
+banner- generate random banner
+load - to load plugin, ex: load pcap_log
+info - information about loaded module
+help - ---
+kill - kill modules running in background
+sessions - list active shell sessions, vnc sessions, etc.
+options - --
+help command
+search exploit_name
+workspace 
+workspace -a sam
+workspace default
+creds -- to manually add identified credentials to the database
+creds add user:admin password:secret
+db_nmap ipaddress  -T5 -O -sV
+then nmap result will saved to database
+
+hosts -will print the data stored in database
+
+search module ;;;;;;;;;;;;;   ex:  search google
+use module_name_with_complete_path
+info -- now it will give detail information about loaded exploit
+
+To connect to ip address of remotehost
+set RHOSTS ip_address
+
+We can run nmap form it.
+
+
+
+Database 
+to store information from msf use
+service postgresql start
+msfdb init
+
+we can store nmap scans, username, etc.
+
+
+
+
+
+
+Writing our own script:
+goto Metasploit/auxiliary/scanner
+make new directory "helloworld"
+create new file "helloworld.rb"
+
