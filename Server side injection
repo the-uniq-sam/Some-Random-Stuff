@@ -1,0 +1,10 @@
+Basically, inko page load hone se pehle kuch action load krne ka kaam diya jaata h (We do that in PHP)
+Lekin agar programmer ne input validation nhi kiya ho toh
+
+Hackermannn log mast ka comment sign marke isko bypass kr lete h.
+
+I used in hackthissite.org/missions/basic/8
+Used syntax :- <!--#exec cmd="ls ../"-->
+kyoki required file tmp se pehle wale folder m thi
+
+To read reference is here:-  https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection
