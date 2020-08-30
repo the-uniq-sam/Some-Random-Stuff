@@ -25,5 +25,5 @@ Now just close the firefox
 
 In Terminal too, just press Ctrl + D and now you are good to go:- 
 
-
+Open Discord.py in any code editor and fill it with your email and password instead of ENTER YOUR EMAIL here and ENTER YOUR PASSWORD here\
 Finally run the provided script "Discord.py" using command python Discord.py
