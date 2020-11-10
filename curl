@@ -1,0 +1,8 @@
+To send get request
+curl $url
+To send post request with some data
+curl $url -X POST --data $data
+To recieve cookies in a file
+curl $url -c $file
+To send cookie 
+curl $url -b "name:value"
