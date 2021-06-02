@@ -21,11 +21,6 @@ time.sleep(3)
 msg = driver.find_element_by_xpath("//div[@aria-label='Message #general']")
 b = 1
 while b==1:
-  msg.send_keys("Pls beg")
+  msg.send_keys("Your message")
   msg.send_keys(Keys.ENTER)
   time.sleep(30)
-  msg.send_keys("Pls dep max")
-  msg.send_keys(Keys.ENTER)
-  time.sleep(11)
-
-print("Script is now working, no need to print you noob")
